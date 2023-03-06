@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from "./components/Navbar"
 import Meme from './components/Meme';
 import Counter from './components/Counter';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Meme/>
   **/}
       <Counter/>
+      <Form/>
 
     </div>
   );
