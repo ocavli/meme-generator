@@ -5,6 +5,8 @@ function Form() {
     const [firstName, setFirstName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [isComputer, setIsComputer] = React.useState(false);
+    const [status, setStatus] = React.useState("");
+
 
     function handleFirstName(event) {
         setFirstName(event.target.value)
@@ -13,9 +15,17 @@ function Form() {
     function handleEmail(event) {
         setEmail(event.target.value)
     }
-    
+
     function handleCheckbox(event) {
         setIsComputer(event.target.checked)
+    }
+
+    function handleCheckbox(event) {
+        setIsComputer(event.target.checked)
+    }
+
+    function handleRadio(event) {
+        setStatus(event.target.value)
     }
 
 
@@ -43,6 +53,16 @@ function Form() {
                 onChange={handleCheckbox}
 
             />
+
+            <input
+                type="radio"
+                value="full time"
+                name="fulltime"
+                checked={status}
+                onChange={handleRadio}
+
+            />
+            
         </form>
     )
 }
