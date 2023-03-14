@@ -20,7 +20,10 @@ function App() {
    <UseEffect />
       <Counter/>**/}
 <Navbar/>
-<Meme/>
+    <main className='main'>
+    <Meme/>
+    </main>
+
 
     </div>
   );
