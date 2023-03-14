@@ -23,14 +23,15 @@ function App() {
       <Counter/>
       <Navbar />
       <main className='main'>
-        <Meme />
+        
       </main>
       <MUI/>
-      **/}
-      
-      <Input type="password" label="Password label"/>
-   
+            <Input type="password" label="Password label"/>
 
+      **/}
+
+      <Navbar />
+        <Meme />
 
 
     </div>
