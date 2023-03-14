@@ -7,6 +7,7 @@ import Form from './components/Form';
 import Signup from './components/Signup';
 import Ternary from './components/Ternary';
 import UseEffect from './components/UseEffect';
+import MUI from './components/MUI';
 
 function App() {
   return (
@@ -18,11 +19,14 @@ function App() {
     <Signup/>
         <Ternary/>
    <UseEffect />
-      <Counter/>**/}
-<Navbar/>
-    <main className='main'>
-    <Meme/>
-    </main>
+      <Counter/>
+      <Navbar />
+      <main className='main'>
+        <Meme />
+      </main>
+      
+      **/}
+      <MUI/>
 
 
     </div>
