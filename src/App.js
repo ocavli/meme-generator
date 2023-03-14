@@ -8,6 +8,7 @@ import Signup from './components/Signup';
 import Ternary from './components/Ternary';
 import UseEffect from './components/UseEffect';
 import MUI from './components/MUI';
+import Input from './components/Input';
 
 function App() {
   return (
@@ -24,9 +25,12 @@ function App() {
       <main className='main'>
         <Meme />
       </main>
-      
-      **/}
       <MUI/>
+      **/}
+      
+      <Input type="password" label="Password label"/>
+   
+
 
 
     </div>
